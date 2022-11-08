@@ -1,0 +1,10 @@
+{
+  "profiles": {
+    "DottedLintChartDemo (Package)": {
+      "commandName": "MsixPackage"
+    },
+    "DottedLintChartDemo (Unpackaged)": {
+      "commandName": "Project"
+    }
+  }
+}
