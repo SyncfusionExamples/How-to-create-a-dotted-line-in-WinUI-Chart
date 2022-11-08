@@ -1,0 +1,54 @@
+﻿<Window
+    x:Class="DottedLintChartDemo.MainWindow"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:local="using:DottedLintChartDemo"
+    xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+    xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
+    xmlns:chart="using:Syncfusion.UI.Xaml.Charts"
+    mc:Ignorable="d">
+
+    <Grid>
+        <chart:SfCartesianChart Margin="20">
+            <chart:SfCartesianChart.DataContext>
+                <local:ViewModel />
+            </chart:SfCartesianChart.DataContext>
+
+            <chart:SfCartesianChart.Resources>
+                <ResourceDictionary>
+                    <DataTemplate x:Key="dataLabelTemplate">
+                        <Ellipse Height="12" Width="12" Fill="#00BDAE"/>
+                    </DataTemplate>
+                </ResourceDictionary>
+            </chart:SfCartesianChart.Resources>
+
+            <chart:SfCartesianChart.Header>
+                <TextBlock Text="Annual rainfall of Paris" FontSize="20" Margin="10" HorizontalTextAlignment="Center" HorizontalAlignment="Center" />
+            </chart:SfCartesianChart.Header>
+
+            <chart:SfCartesianChart.XAxes>
+                <chart:CategoryAxis PlotOffsetStart="10" ShowMajorGridLines="False"/>
+            </chart:SfCartesianChart.XAxes>
+
+            <chart:SfCartesianChart.YAxes>
+                <chart:NumericalAxis Maximum="520" PlotOffsetStart="30"/>
+            </chart:SfCartesianChart.YAxes>
+
+            <chart:LineSeries XBindingPath="Year"
+                              YBindingPath="Counts"
+                              ItemsSource="{Binding Data}"
+                              ShowDataLabels="True">
+                <chart:LineSeries.StrokeDashArray>
+                    <DoubleCollection>
+                        <x:Double>3</x:Double>
+                        <x:Double>3</x:Double>
+                    </DoubleCollection>
+                </chart:LineSeries.StrokeDashArray>
+                <chart:LineSeries.DataLabelSettings>
+                    <chart:CartesianDataLabelSettings ContentTemplate="{StaticResource dataLabelTemplate}"/>
+                </chart:LineSeries.DataLabelSettings>
+            </chart:LineSeries>
+        </chart:SfCartesianChart>
+
+    </Grid>
+</Window>
