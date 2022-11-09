@@ -27,11 +27,13 @@
             </chart:SfCartesianChart.Header>
 
             <chart:SfCartesianChart.XAxes>
-                <chart:CategoryAxis PlotOffsetStart="10" ShowMajorGridLines="False"/>
+                <chart:CategoryAxis PlotOffsetStart="10" ShowMajorGridLines="False"
+                                    Header="Year"/>
             </chart:SfCartesianChart.XAxes>
 
             <chart:SfCartesianChart.YAxes>
-                <chart:NumericalAxis Maximum="520" PlotOffsetStart="30"/>
+                <chart:NumericalAxis Maximum="520" PlotOffsetStart="30"
+                                     Header="Average rainfall (mm)"/>
             </chart:SfCartesianChart.YAxes>
 
             <chart:LineSeries XBindingPath="Year"

@@ -62,7 +62,7 @@ chart.Series.Add(series);
 
 ```
 
-![Dotted line chart](https://user-images.githubusercontent.com/61832185/200536750-125843a1-f13c-4d34-ad19-24582db26ec4.png)
+![Dotted line chart](https://user-images.githubusercontent.com/61832185/200857633-73818d14-6e82-465b-8de6-a728cb90278f.png)
 
 This user guide [Documentation](https://help.syncfusion.com/winui/cartesian-charts/getting-started) helps you to acquire more knowledge on the WinUI cartesian charts and their features. You can also refer to the [Feature Tour](https://www.syncfusion.com/winui-controls/charts) site to get an overview of all the features in the   chart.
 
