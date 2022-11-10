@@ -1,4 +1,4 @@
-# How-to-create-a-dotted-line-in-WinUI-Chart-SfCartesianChart-
+# How to create a dotted line in WinUI Chart (SfCartesianChart)
 
 WinUI line chart is a visual representation of the data trends at equal intervals by connecting a set of points on a plot with straight lines. This section explains how to create dotted line charts in WinUI cartesian chart.
 If you are new to our control refer to this [KB documentation](https://www.syncfusion.com/kb/13540/how-to-create-a-winui-line-chart-sfcartesianchart), Which helps you to get more knowledge on the WinUI line chart and its features.
