@@ -22,12 +22,9 @@
                 </ResourceDictionary>
             </chart:SfCartesianChart.Resources>
 
-            <chart:SfCartesianChart.Header>
-                <TextBlock Text="Annual rainfall of Paris" FontSize="20" Margin="10" HorizontalTextAlignment="Center" HorizontalAlignment="Center" />
-            </chart:SfCartesianChart.Header>
-
             <chart:SfCartesianChart.XAxes>
-                <chart:CategoryAxis PlotOffsetStart="10" ShowMajorGridLines="False"
+                <chart:CategoryAxis PlotOffsetStart="10" 
+                                    PlotOffsetEnd="10"  ShowMajorGridLines="False"
                                     Header="Year"/>
             </chart:SfCartesianChart.XAxes>
 
