@@ -66,7 +66,17 @@ var series = new LineSeries()
 chart.Series.Add(series);
 
 ```
-
+## Output:
 ![Dotted line chart](https://user-images.githubusercontent.com/61832185/202086362-e424eee5-eaa0-4cd6-b5b4-d8361378833b.png)
 
 This user guide [Documentation](https://help.syncfusion.com/winui/cartesian-charts/getting-started) helps you to acquire more knowledge on the WinUI cartesian charts and their features. You can also refer to the [Feature Tour](https://www.syncfusion.com/winui-controls/charts) site to get an overview of all the features in the chart.
+
+## <a name="requirements-to-run-the-demo"></a>Requirements to run the demo ##
+
+* [Visual Studio 2022](https://visualstudio.microsoft.com/downloads/)
+* [Windows App SDK 1.1 extension](https://learn.microsoft.com/en-us/windows/apps/windows-app-sdk/stable-channel#version-11)
+* .NET 6.0
+
+## <a name="troubleshooting"></a>Troubleshooting ##
+### Path too long exception
+If you are facing path too long exception when building this example project, close Visual Studio and rename the repository to short and build the project.
