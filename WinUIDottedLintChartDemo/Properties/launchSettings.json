@@ -1,9 +1,9 @@
 {
   "profiles": {
-    "DottedLintChartDemo (Package)": {
+    "WinUIDottedLintChartDemo (Package)": {
       "commandName": "MsixPackage"
     },
-    "DottedLintChartDemo (Unpackaged)": {
+    "WinUIDottedLintChartDemo (Unpackaged)": {
       "commandName": "Project"
     }
   }

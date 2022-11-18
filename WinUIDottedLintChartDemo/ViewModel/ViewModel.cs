@@ -6,7 +6,7 @@ using System.Reflection;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace DottedLintChartDemo
+namespace WinUIDottedLintChartDemo
 {
 	public class ViewModel
 	{
