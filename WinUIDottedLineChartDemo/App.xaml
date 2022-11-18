@@ -1,8 +1,8 @@
 ﻿<Application
-    x:Class="WinUIDottedLintChartDemo.App"
+    x:Class="WinUIDottedLineChartDemo.App"
     xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
     xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
-    xmlns:local="using:WinUIDottedLintChartDemo">
+    xmlns:local="using:WinUIDottedLineChartDemo">
     <Application.Resources>
         <ResourceDictionary>
             <ResourceDictionary.MergedDictionaries>
