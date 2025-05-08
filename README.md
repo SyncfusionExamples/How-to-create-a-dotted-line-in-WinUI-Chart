@@ -81,4 +81,4 @@ This user guide [Documentation](https://help.syncfusion.com/winui/cartesian-char
 ### Path too long exception
 If you are facing path too long exception when building this example project, close Visual Studio and rename the repository to short and build the project.
 
-**KB Link**- [How to create a dotted line in WinUI Chart]([https://visualstudio.microsoft.com/downloads/](https://support.syncfusion.com/kb/article/12251/how-to-create-a-dotted-line-in-winui-chart-sfcartesianchart))
+**KB Link**- [How to create a dotted line in WinUI Chart](https://support.syncfusion.com/kb/article/12251/how-to-create-a-dotted-line-in-winui-chart-sfcartesianchart)
